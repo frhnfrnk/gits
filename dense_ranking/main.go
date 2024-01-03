@@ -73,6 +73,10 @@ func main() {
 		gitsRank[i] = rankings[rank]
 	}
 
-	fmt.Println(gitsRank)
+	fmt.Println("Output : ")
+	for _, rank := range gitsRank {
+		fmt.Print(rank)
+		fmt.Print(" ")
+	}
 
 }
